@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <main className="font-BeVietnamPro">
       <h3 className="bg-cyan-300">Green</h3>
-    </div>
+    </main>
   );
 }
 
