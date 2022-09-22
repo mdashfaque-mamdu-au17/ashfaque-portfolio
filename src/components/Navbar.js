@@ -6,9 +6,9 @@ import Setting from '../assets/gear-setting.svg';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav>
+    <nav className="sticky top-0 z-30 pt-10 bg-white">
       {/* Mobile */}
-      <section className="lg:hidden">
+      <section className="overscroll-none lg:hidden">
         <div className="mt-6 ml-8">
           <div
             className={classNames('menu-btn', menuOpen && 'open')}
@@ -68,7 +68,7 @@ const Navbar = () => {
       </div>
 
       {/* web version */}
-      <section className="sticky hidden h-10 px-8 mx-auto mt-10 lg:block max-w-7xl">
+      <section className="sticky hidden h-10 px-8 mx-auto lg:block max-w-7xl">
         <div className="flex items-center justify-between">
           <div>
             <Link to="/" className="text-4xl font-bold text-theme-navy-blue">
