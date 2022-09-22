@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Setting from '../assets/gear-setting.svg';
 
 const Navbar = () => {
@@ -86,6 +87,14 @@ const Navbar = () => {
             >
               Skills
             </NavLink>
+            {/* <HashLink
+              to="#skills"
+              smooth
+              activeStyle={{color: ''}}
+              className="text-lg leading-[26px] font-normal"
+            >
+              Skills
+            </HashLink> */}
 
             <NavLink
               to="/projects"
