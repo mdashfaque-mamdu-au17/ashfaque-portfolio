@@ -11,7 +11,7 @@ import Tailwind from '../assets/tailwindcss.png';
 import Skill from './Skill';
 const SkillsSection = () => {
   return (
-    <section className="pt-[105px] max-w-7xl mx-auto">
+    <section id="skills" className="pt-[105px] max-w-7xl mx-auto">
       <div className="text-center">
         <Heading title="Skills" />
       </div>
