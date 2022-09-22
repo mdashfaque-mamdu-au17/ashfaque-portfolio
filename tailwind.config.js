@@ -7,6 +7,7 @@ module.exports = {
         'theme-navy-blue': '#343D68',
         'theme-red-600': '#E84949',
         'theme-gray-400': '#838383',
+        'theme-gray-300': '#818080',
       },
       fontFamily: {
         BeVietnamPro: ['Be Vietnam Pro', 'sans-serif'],
