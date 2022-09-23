@@ -70,3 +70,9 @@ code {
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
+
+.custom-box {
+  border: 4px solid #0000;
+  background: linear-gradient(to right, white, white) padding-box,
+    linear-gradient(#6348fe, #610595) border-box;
+}
