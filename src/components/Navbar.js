@@ -1,11 +1,13 @@
 import classNames from 'classnames';
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Setting from '../assets/gear-setting.svg';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const handleClick = () => {
+    setMenuOpen(false);
+  };
   return (
     <nav className="lg:sticky lg:top-0 lg:z-30 lg:pt-10 lg:bg-white">
       {/* Mobile */}
@@ -36,35 +38,32 @@ const Navbar = () => {
             'flex flex-col items-center justify-center gap-8 py-12'
           )}
         >
-          <NavLink
-            to="/"
-            style={({ isActive }) => ({
-              color: isActive ? '#E84949' : '#000000',
-            })}
-            className="text-lg leading-[26px] font-normal"
+          <HashLink
+            to="/#skills"
+            smooth
+            className="text-lg leading-[26px] font-normal text-theme-red-600"
+            onClick={() => handleClick()}
           >
             Skills
-          </NavLink>
+          </HashLink>
 
-          <NavLink
-            to="/projects"
-            style={({ isActive }) => ({
-              color: isActive ? '#E84949' : '#000000',
-            })}
-            className="text-lg leading-[26px] font-normal"
+          <HashLink
+            to="/#projects"
+            smooth
+            className="text-lg leading-[26px] font-normal text-theme-red-600"
+            onClick={() => handleClick()}
           >
             Projects
-          </NavLink>
+          </HashLink>
 
-          <NavLink
-            to="/projects"
-            style={({ isActive }) => ({
-              color: isActive ? '#E84949' : '#000000',
-            })}
-            className="text-lg leading-[26px] font-normal"
+          <HashLink
+            to="/#contact-me"
+            smooth
+            className="text-lg leading-[26px] font-normal text-theme-red-600"
+            onClick={() => handleClick()}
           >
             Contact me
-          </NavLink>
+          </HashLink>
         </div>
       </div>
 
@@ -78,44 +77,29 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-20">
-            <NavLink
-              to="/"
-              style={({ isActive }) => ({
-                color: isActive ? '#E84949' : '#000000',
-              })}
-              className="text-lg leading-[26px] font-normal"
-            >
-              Skills
-            </NavLink>
-            {/* <HashLink
-              to="#skills"
+            <HashLink
+              to="/#skills"
               smooth
-              activeStyle={{color: ''}}
-              className="text-lg leading-[26px] font-normal"
+              className="text-lg leading-[26px] font-normal text-black"
             >
               Skills
-            </HashLink> */}
+            </HashLink>
 
-            <NavLink
-              to="/projects"
-              style={({ isActive }) => ({
-                color: isActive ? '#E84949' : '#000000',
-              })}
-              className="text-lg leading-[26px] font-normal flex gap-2"
+            <HashLink
+              to="/#projects"
+              smooth
+              className="text-lg leading-[26px] font-normal text-black"
             >
-              <img src={Setting} alt="" />
               Projects
-            </NavLink>
+            </HashLink>
 
-            <NavLink
-              to="/projects"
-              style={({ isActive }) => ({
-                color: isActive ? '#E84949' : '#000000',
-              })}
-              className="text-lg leading-[26px] font-normal"
+            <HashLink
+              to="/#contact-me"
+              smooth
+              className="text-lg leading-[26px] font-normal text-black"
             >
               Contact me
-            </NavLink>
+            </HashLink>
           </div>
         </div>
       </section>
