@@ -7,7 +7,7 @@ import Setting from '../assets/gear-setting.svg';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-30 pt-10 bg-white">
+    <nav className="lg:sticky lg:top-0 lg:z-30 lg:pt-10 lg:bg-white">
       {/* Mobile */}
       <section className="overscroll-none lg:hidden">
         <div className="mt-6 ml-8">
