@@ -76,3 +76,19 @@ code {
   background: linear-gradient(to right, white, white) padding-box,
     linear-gradient(#6348fe, #610595) border-box;
 }
+
+input:focus,
+textarea:focus {
+  /* outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  border-image: linear-gradient(to right, #6348fe, #610595) 8; */
+
+  border: 1px solid #0000;
+  border-radius: 8px;
+  /* background: linear-gradient(red, blue) padding-box; */
+  /* linear-gradient(green, pink) border-box; */
+  background: linear-gradient(to right, white, white) padding-box,
+    linear-gradient(#6348fe, #610595) border-box;
+}
