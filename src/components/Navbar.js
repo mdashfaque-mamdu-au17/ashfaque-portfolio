@@ -80,7 +80,7 @@ const Navbar = () => {
             <HashLink
               to="/#skills"
               smooth
-              className="text-lg leading-[26px] font-normal text-black"
+              className="text-lg leading-[26px] font-normal text-theme-red-600"
             >
               Skills
             </HashLink>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <HashLink
               to="/#projects"
               smooth
-              className="text-lg leading-[26px] font-normal text-black"
+              className="text-lg leading-[26px] font-normal text-theme-red-600"
             >
               Projects
             </HashLink>
@@ -96,7 +96,7 @@ const Navbar = () => {
             <HashLink
               to="/#contact-me"
               smooth
-              className="text-lg leading-[26px] font-normal text-black"
+              className="text-lg leading-[26px] font-normal text-theme-red-600"
             >
               Contact me
             </HashLink>
