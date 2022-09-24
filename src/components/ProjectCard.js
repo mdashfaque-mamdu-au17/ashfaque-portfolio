@@ -5,7 +5,7 @@ const ProjectCard = ({ imageSrc, description, deployedLink, githubLink }) => {
   return (
     <article
       className={classNames(
-        'w-[276px] xl:w-[381px] h-[300px] xl:h-[431px] hover:shadow-2xl rounded-2xl overflow-hidden',
+        'w-[276px] xl:w-[381px] h-[300px] xl:h-[431px] hover:shadow-xl rounded-2xl overflow-hidden',
         'custom-box'
       )}
     >
