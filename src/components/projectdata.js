@@ -52,4 +52,13 @@ export const allProjects = [
     deployedLink: 'https://contact-details-xi.vercel.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/contact-details',
   },
+
+  {
+    id: 4,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1664043985/Screenshot_2022-09-24_at_23-53-21_React_App_dsohse.png',
+    description: 'Portfolio website using Sass and css.',
+    deployedLink: 'https://portfolio-landing-website.netlify.app/',
+    githubLink: 'https://github.com/mdashfaque-mamdu-au17/f22labs-task2',
+  },
 ];
