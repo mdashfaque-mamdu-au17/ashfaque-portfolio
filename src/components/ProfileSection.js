@@ -66,7 +66,7 @@ const ProfileSection = () => {
         </div>
 
         <div className="flex justify-center pt-5 md:justify-start">
-          <HashLink to="#" smooth className="text-white">
+          <HashLink to="#contact-me" smooth className="text-white">
             <button className="w-[114px] h-[46px] bg-theme-red-600 rounded text-lg leading-[26px] flex items-center justify-center shadow-custom-shadow">
               Hire me
             </button>
