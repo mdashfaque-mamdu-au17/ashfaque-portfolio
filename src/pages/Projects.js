@@ -21,7 +21,7 @@ const Projects = () => {
       </nav>
 
       <div>
-        <section className="mx-auto max-w-7xl pt-[105px] pb-[105px]">
+        <section className="mx-auto max-w-7xl pt-8 md:pt-[72px] pb-8">
           <div className="z-10 pt-[43px] lg:pt-[30px] flex flex-wrap gap-y-[69px] justify-center gap-4 px-8 xl:grid xl:grid-cols-3 xl:flex-none gap-x-[58px]">
             {allProjects?.map((project, index) => {
               const {
