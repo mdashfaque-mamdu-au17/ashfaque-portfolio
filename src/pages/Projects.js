@@ -1,8 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
 import { allProjects } from '../components/projectdata';
 const Projects = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <nav className="sticky top-0 z-30 px-8 pt-6 mx-auto bg-white lg:pt-10 max-w-7xl">
