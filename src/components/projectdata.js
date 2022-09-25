@@ -3,7 +3,7 @@ export const mostRecents = [
     id: 1,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1663957846/interactive-card_wnwfuj.png',
-    description: 'Interactive card and with validations',
+    description: 'Interactive card with validations',
     deployedLink: 'https://interactive-self.vercel.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/interactive-card',
   },
@@ -31,7 +31,7 @@ export const allProjects = [
     id: 1,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1663957846/interactive-card_wnwfuj.png',
-    description: 'Interactive card and with validations',
+    description: 'Interactive card with validations',
     deployedLink: 'https://interactive-self.vercel.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/interactive-card',
   },
