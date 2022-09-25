@@ -14,6 +14,7 @@ module.exports = {
         'theme-red-800': '#FF5050',
         'theme-purple-800': '#4F47C8',
         'theme-white-700': '#FFFDFD',
+        'theme-blue-700': '#0ACBBF',
       },
       fontFamily: {
         BeVietnamPro: ['Be Vietnam Pro', 'sans-serif'],
