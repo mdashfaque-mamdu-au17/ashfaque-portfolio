@@ -15,7 +15,7 @@ const Projects = () => {
             to="/"
             className="text-xl font-bold lg:text-4xl text-theme-navy-blue"
           >
-            ashfaque
+            ashfaque;
           </Link>
         </div>
       </nav>
