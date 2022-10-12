@@ -19,10 +19,11 @@ export const mostRecents = [
   {
     id: 3,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1663959523/contact_qvtrff.png',
-    description: 'Contact details page with CRUD functionality.',
-    deployedLink: 'https://contact-details-xi.vercel.app/',
-    githubLink: 'https://github.com/mdashfaque-mamdu-au17/contact-details',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665609599/desing-portfolio-2_e0dxr4.png',
+    description: 'Single Page design portfolio Frontend Mentor challenge.',
+    deployedLink: 'https://single-page-design-portfolio-psi.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/single-page-design-portfolio',
   },
 ];
 
@@ -60,5 +61,14 @@ export const allProjects = [
     description: 'Portfolio website using Sass and css.',
     deployedLink: 'https://portfolio-landing-website.netlify.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/f22labs-task2',
+  },
+  {
+    id: 5,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665609599/desing-portfolio-2_e0dxr4.png',
+    description: 'Single Page design portfolio Frontend Mentor challenge.',
+    deployedLink: 'https://single-page-design-portfolio-psi.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/single-page-design-portfolio',
   },
 ];
