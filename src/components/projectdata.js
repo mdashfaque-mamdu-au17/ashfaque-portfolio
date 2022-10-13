@@ -31,13 +31,22 @@ export const allProjects = [
   {
     id: 1,
     projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665609599/desing-portfolio-2_e0dxr4.png',
+    description: 'Single Page design portfolio Frontend Mentor challenge.',
+    deployedLink: 'https://single-page-design-portfolio-psi.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/single-page-design-portfolio',
+  },
+  {
+    id: 2,
+    projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1663957846/interactive-card_wnwfuj.png',
     description: 'Interactive card with validations',
     deployedLink: 'https://interactive-self.vercel.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/interactive-card',
   },
   {
-    id: 2,
+    id: 3,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1663958569/music-player_ef8vxo.jpg',
     description: 'Music Player using React.js and Tailwind css',
@@ -46,7 +55,7 @@ export const allProjects = [
   },
 
   {
-    id: 3,
+    id: 4,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1663959523/contact_qvtrff.png',
     description: 'Contact details page with CRUD functionality.',
@@ -55,20 +64,12 @@ export const allProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1664043985/Screenshot_2022-09-24_at_23-53-21_React_App_dsohse.png',
     description: 'Portfolio website using Sass and css.',
     deployedLink: 'https://portfolio-landing-website.netlify.app/',
-    githubLink: 'https://github.com/mdashfaque-mamdu-au17/f22labs-task2',
-  },
-  {
-    id: 5,
-    projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665609599/desing-portfolio-2_e0dxr4.png',
-    description: 'Single Page design portfolio Frontend Mentor challenge.',
-    deployedLink: 'https://single-page-design-portfolio-psi.vercel.app/',
     githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/single-page-design-portfolio',
+      'https://github.com/mdashfaque-mamdu-au17/portfolio-landing-page',
   },
 ];
