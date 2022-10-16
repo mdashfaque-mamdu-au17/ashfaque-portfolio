@@ -72,4 +72,12 @@ export const allProjects = [
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/portfolio-landing-page',
   },
+  {
+    id: 6,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665943347/notification_av60n9.png',
+    description: 'Notification page with clear all notification functionality',
+    deployedLink: 'https://notification-page-dun.vercel.app/',
+    githubLink: 'https://github.com/mdashfaque-mamdu-au17/notificatioin-page',
+  },
 ];
