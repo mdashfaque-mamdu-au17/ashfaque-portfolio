@@ -10,10 +10,12 @@ export const mostRecents = [
   {
     id: 2,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1663958569/music-player_ef8vxo.jpg',
-    description: 'Music Player using React.js and Tailwind css',
-    deployedLink: 'https://music-player-opal-eight.vercel.app/',
-    githubLink: 'https://github.com/mdashfaque-mamdu-au17/music-player',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1670419686/crowd-funding-app_cz3klw.jpg',
+    description:
+      'Crowd Funding App which allows user to back project by funding',
+    deployedLink: 'https://crowd-funding-product-page-ashfaque.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/crowd-funding-product-page',
   },
 
   {
@@ -79,5 +81,15 @@ export const allProjects = [
     description: 'Notification page with clear all notification functionality',
     deployedLink: 'https://notification-page-dun.vercel.app/',
     githubLink: 'https://github.com/mdashfaque-mamdu-au17/notificatioin-page',
+  },
+  {
+    id: 7,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1670419686/crowd-funding-app_cz3klw.jpg',
+    description:
+      'Crowd Funding App which allows user to back project by funding',
+    deployedLink: 'https://crowd-funding-product-page-ashfaque.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/crowd-funding-product-page',
   },
 ];

@@ -4,6 +4,8 @@ import SkillDwg2 from '../assets/skills2.svg';
 import SkillDwg from '../assets/skill-drawing.svg';
 import Html from '../assets/html.svg';
 import Css from '../assets/css.svg';
+import Nodejs from '../assets/node.png';
+import MongoDB from '../assets/mongodb.png';
 import Javascript from '../assets/javascript.svg';
 import ReactJS from '../assets/download.svg';
 import Tailwind from '../assets/tailwindcss.png';
@@ -31,10 +33,10 @@ const SkillsSection = () => {
 
           <div className="grid grid-cols-2 gap-x-[82px] sm:grid-cols-5 sm:gap-x-4 lg:gap-x-10 gap-y-[58px] px-8 mx-auto  pt-8">
             <div>
-              <Skill imageSrc={Html} title="HTML 5" />
+              <Skill imageSrc={MongoDB} title="Mongo DB" />
             </div>
             <div className="place-self-end sm:place-self-start">
-              <Skill imageSrc={Css} title="CSS3" />
+              <Skill imageSrc={Nodejs} title="Node js" />
             </div>
             <div>
               <Skill imageSrc={Javascript} title="JavaScript" />
