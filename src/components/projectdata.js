@@ -2,10 +2,11 @@ export const mostRecents = [
   {
     id: 1,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1663957846/interactive-card_wnwfuj.png',
-    description: 'Interactive card with validations',
-    deployedLink: 'https://interactive-self.vercel.app/',
-    githubLink: 'https://github.com/mdashfaque-mamdu-au17/interactive-card',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1671539300/url-shortening_kmvhdo.png',
+    desription: 'URL Shortening web application where you can shorten urls',
+    deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
   },
   {
     id: 2,
@@ -91,5 +92,14 @@ export const allProjects = [
     deployedLink: 'https://crowd-funding-product-page-ashfaque.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/crowd-funding-product-page',
+  },
+  {
+    id: 8,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1671539300/url-shortening_kmvhdo.png',
+    desription: 'URL Shortening web application where you can shorten urls',
+    deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
   },
 ];
