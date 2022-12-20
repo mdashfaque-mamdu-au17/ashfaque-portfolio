@@ -3,7 +3,7 @@ export const mostRecents = [
     id: 1,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1671539300/url-shortening_kmvhdo.png',
-    desription: 'URL Shortening web application where you can shorten urls',
+    description: 'URL Shortening web application where you can shorten urls',
     deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
@@ -97,7 +97,7 @@ export const allProjects = [
     id: 8,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1671539300/url-shortening_kmvhdo.png',
-    desription: 'URL Shortening web application where you can shorten urls',
+    description: 'URL Shortening web application where you can shorten urls',
     deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
