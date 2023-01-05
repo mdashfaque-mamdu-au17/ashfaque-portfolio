@@ -18,15 +18,14 @@ export const mostRecents = [
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/crowd-funding-product-page',
   },
-
   {
     id: 3,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1665609599/desing-portfolio-2_e0dxr4.png',
-    description: 'Single Page design portfolio Frontend Mentor challenge.',
-    deployedLink: 'https://single-page-design-portfolio-psi.vercel.app/',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1672903647/flyo_bucpmk.png',
+    description: 'Flyo dark theme landing page with react and tailwind css',
+    deployedLink: 'https://flyo-dark-theme-landing-page-theta.vercel.app/',
     githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/single-page-design-portfolio',
+      'https://github.com/mdashfaque-mamdu-au17/flyo-dark-theme-landing-page',
   },
 ];
 
@@ -101,5 +100,14 @@ export const allProjects = [
     deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
+  },
+  {
+    id: 9,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1672903647/flyo_bucpmk.png',
+    description: 'Flyo dark theme landing page with react and tailwind css',
+    deployedLink: 'https://flyo-dark-theme-landing-page-theta.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/flyo-dark-theme-landing-page',
   },
 ];
