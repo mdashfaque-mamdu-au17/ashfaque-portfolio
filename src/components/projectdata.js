@@ -11,12 +11,11 @@ export const mostRecents = [
   {
     id: 2,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1670419686/crowd-funding-app_cz3klw.jpg',
-    description:
-      'Crowd Funding App which allows user to back project by funding',
-    deployedLink: 'https://crowd-funding-product-page-ashfaque.vercel.app/',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1674147785/officelite_qpwugu.png',
+    description: 'Officelite landing page with countdown timer and Signup form',
+    deployedLink: 'https://officelite-coming-soon-seven.vercel.app/',
     githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/crowd-funding-product-page',
+      'https://github.com/mdashfaque-mamdu-au17/officelite-coming-soon',
   },
   {
     id: 3,
@@ -109,5 +108,14 @@ export const allProjects = [
     deployedLink: 'https://flyo-dark-theme-landing-page-theta.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/flyo-dark-theme-landing-page',
+  },
+  {
+    id: 10,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1674147785/officelite_qpwugu.png',
+    description: 'Officelite landing page with countdown timer and Signup form',
+    deployedLink: 'https://officelite-coming-soon-seven.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/officelite-coming-soon',
   },
 ];
