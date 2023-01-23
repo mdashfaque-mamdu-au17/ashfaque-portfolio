@@ -118,4 +118,13 @@ export const allProjects = [
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/officelite-coming-soon',
   },
+  {
+    id: 11,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1674492989/social-media-dashboard_sasnea.png',
+    description: 'Social media dashboard challenge with dark and light theme',
+    deployedLink: 'https://social-media-dashboard-challenge-ashy.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/social-media-dashboard-challenge',
+  },
 ];
