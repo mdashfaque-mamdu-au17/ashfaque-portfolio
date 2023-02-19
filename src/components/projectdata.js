@@ -2,11 +2,11 @@ export const mostRecents = [
   {
     id: 1,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1671539300/url-shortening_kmvhdo.png',
-    description: 'URL Shortening web application where you can shorten urls',
-    deployedLink: 'https://url-shortening-landing-page-eight.vercel.app/',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1676801291/todo-app_k7htyd.png',
+    description: 'To do web application with backend. built using Express and node js',
+    deployedLink: 'https://to-do-frontend-fawn.vercel.app/',
     githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/url-shortening-landing-page',
+      'https://github.com/mdashfaque-mamdu-au17/to-do-frontend',
   },
   {
     id: 2,
@@ -126,5 +126,14 @@ export const allProjects = [
     deployedLink: 'https://social-media-dashboard-challenge-ashy.vercel.app/',
     githubLink:
       'https://github.com/mdashfaque-mamdu-au17/social-media-dashboard-challenge',
+  },
+  {
+    id: 12,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1676801291/todo-app_k7htyd.png',
+    description: 'To do web application with backend. built using Express and node js',
+    deployedLink: 'https://to-do-frontend-fawn.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/to-do-frontend',
   },
 ];
