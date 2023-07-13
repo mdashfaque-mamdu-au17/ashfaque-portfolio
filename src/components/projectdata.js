@@ -2,11 +2,11 @@ export const mostRecents = [
   {
     id: 1,
     projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1676801291/todo-app_k7htyd.png',
-    description: 'To do web application with backend. built using Express and node js',
-    deployedLink: 'https://to-do-frontend-fawn.vercel.app/',
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1689252698/entertainment-web-application_v1dgx8.jpg',
+    description: 'Entertainment web application. built using MERN Stack',
+    deployedLink: 'https://entertainment-web-app-frontend.vercel.app/',
     githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/to-do-frontend',
+      'https://github.com/mdashfaque-mamdu-au17/entertainment-web-app-frontend',
   },
   {
     id: 2,
@@ -29,6 +29,15 @@ export const mostRecents = [
 ];
 
 export const allProjects = [
+  {
+    id: 13,
+    projectImage:
+      'https://res.cloudinary.com/dzajmcocc/image/upload/v1689252698/entertainment-web-application_v1dgx8.jpg',
+    description: 'Entertainment web application. built using MERN Stack',
+    deployedLink: 'https://entertainment-web-app-frontend.vercel.app/',
+    githubLink:
+      'https://github.com/mdashfaque-mamdu-au17/entertainment-web-app-frontend',
+  },
   {
     id: 1,
     projectImage:
@@ -131,9 +140,9 @@ export const allProjects = [
     id: 12,
     projectImage:
       'https://res.cloudinary.com/dzajmcocc/image/upload/v1676801291/todo-app_k7htyd.png',
-    description: 'To do web application with backend. built using Express and node js',
+    description:
+      'To do web application with backend. built using Express and node js',
     deployedLink: 'https://to-do-frontend-fawn.vercel.app/',
-    githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/to-do-frontend',
+    githubLink: 'https://github.com/mdashfaque-mamdu-au17/to-do-frontend',
   },
 ];
