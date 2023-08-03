@@ -19,16 +19,21 @@ export const mostRecents = [
   },
   {
     id: 3,
-    projectImage:
-      'https://res.cloudinary.com/dzajmcocc/image/upload/v1672903647/flyo_bucpmk.png',
-    description: 'Flyo dark theme landing page with react and tailwind css',
-    deployedLink: 'https://flyo-dark-theme-landing-page-theta.vercel.app/',
-    githubLink:
-      'https://github.com/mdashfaque-mamdu-au17/flyo-dark-theme-landing-page',
+    projectImage: 'https://res.cloudinary.com/dzajmcocc/image/upload/v1691076848/rest-countries_ans28c.png',
+    description: 'Rest Countries, built using Next.js',
+    deployedLink: 'https://rest-countries-app-eight.vercel.app/',
+    githubLink: 'https://github.com/mdashfaque-mamdu-au17/rest-countries-app'
   },
 ];
 
 export const allProjects = [
+  {
+    id: 14,
+    projectImage: 'https://res.cloudinary.com/dzajmcocc/image/upload/v1691076848/rest-countries_ans28c.png',
+    description: 'Rest Countries, built using Next.js',
+    deployedLink: 'https://rest-countries-app-eight.vercel.app/',
+    githubLink: 'https://github.com/mdashfaque-mamdu-au17/rest-countries-app'
+  },
   {
     id: 13,
     projectImage:
