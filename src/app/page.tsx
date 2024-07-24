@@ -1,9 +1,11 @@
-import ThemeSwitcher from '@/components/ThemeSwitcher/ThemeSwitcher';
+import AboutMeSection from '@/components/sections/about-me';
+import HeroSection from '@/components/sections/hero';
 
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-center">
-      <ThemeSwitcher />
-    </main>
+    <>
+      <HeroSection />
+      <AboutMeSection />
+    </>
   );
 }
