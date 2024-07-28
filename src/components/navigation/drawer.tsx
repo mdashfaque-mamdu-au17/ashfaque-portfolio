@@ -67,7 +67,6 @@ const DrawerContent = React.forwardRef<
     </DrawerPrimitive.Content>
   </DrawerPortal>
 ));
-
 DrawerContent.displayName = DrawerPrimitive.Content.displayName;
 
 export { Drawer, DrawerTrigger, DrawerClose, DrawerContent };
