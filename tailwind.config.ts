@@ -28,13 +28,13 @@ const config: Config = {
       keyframes: {
         open: {
           '0%': {
-            opacity: 1,
+            opacity: '1',
             transform: 'translateX(100%)',
           },
         },
         close: {
           to: {
-            opacity: 0,
+            opacity: '0',
             transform: 'translateX(100%)',
           },
         },
