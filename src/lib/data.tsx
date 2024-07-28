@@ -29,7 +29,7 @@ import AvatarDummy from '/public/images/avatar-dummy.svg';
 import {
   ExperienceDetails,
   ProjectDetails,
-  TechDetails,
+  TechDetailsTypes,
   TestimonialDetails,
 } from '@/lib/types';
 
@@ -76,7 +76,7 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const TECHNOLOGIES: TechDetails[] = [
+export const TECHNOLOGIES: TechDetailsTypes[] = [
   {
     label: 'Javascript',
     logo: LogoJavascript,
