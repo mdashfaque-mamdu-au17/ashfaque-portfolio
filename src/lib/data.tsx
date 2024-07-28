@@ -7,24 +7,16 @@ import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import PixelotechLogo from '/public/images/logos/pixelotech-logo.jpeg';
+import WooshelfLogo from '/public/images/logos/wooshelf-logo.jpeg';
+import F22LabsLogo from '/public/images/logos/f22_labs_logo.jpeg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
@@ -117,22 +109,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://expressjs.com/',
   },
   {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
-  {
     label: 'MongoDB',
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
@@ -153,12 +129,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.figma.com/',
   },
   {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
     label: 'Storybook',
     logo: LogoStorybook,
     url: 'https://storybook.js.org/',
@@ -172,23 +142,24 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    logo: PixelotechLogo,
+    logoAlt: 'Pixelotech Logo',
+    position: 'Frontend Developer',
+    startDate: new Date(2023, 7),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Led project development, overseeing frontend architecture & implementation.',
+      'Spearheaded cross-team collaboration transforming project requirements into deliverables.',
+      'Mentored junior developers, Conducted code quality maintenance via regular reviews.',
+      'Worked directly with stakeholders, ensuring frequent updates & continuous improvement.',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: WooshelfLogo,
+    logoAlt: 'Wooshelf Logo',
+    position: 'Frontend Developer',
+    startDate: new Date(2023, 2),
+    endDate: new Date(2023, 5),
     summary: [
       'Acted as team lead in different projects.',
       'Brainstormed new ideas & gathered requirements for internal projects.',
@@ -198,13 +169,16 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    logo: F22LabsLogo,
+    logoAlt: 'F22 Labs logo',
+    position: 'Junior Frontend Developer ',
+    startDate: new Date(2022, 2),
+    endDate: new Date(2022, 8),
+    summary: [
+      'Successfully converted Figma designs into web applications as part of a collaborative team eﬀort.',
+      ' Collaborated closely with the backend team to integrate APIs with the frontend, ensuring seamless data ﬂow and functionality.',
+      'Worked in conjunction with the QA team to identify and address bugs, enhancing the overall quality and performance of applications.',
+    ],
   },
 ];
 

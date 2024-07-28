@@ -1,6 +1,6 @@
 import type { StaticImageData } from 'next/image';
 
-export type TechDetails = {
+export type TechDetailsTypes = {
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;
   label: string;
