@@ -7,6 +7,7 @@ import Typography from '@/components/general/typography';
 import Link from '@/components/navigation/link';
 import Tag from '@/components/data-display/tag';
 import Card from '@/components/layout/card';
+import PlaceholderImage from '/public/images/projects/placeholder.webp';
 
 type ProjectDetailsProps = ProjectDetailsType & {
   layoutType: 'default' | 'reverse';
@@ -19,26 +20,36 @@ const ProjectDetails = ({
   url,
   previewImage,
   layoutType = 'default',
+  isPreviewAvailable = true,
 }: ProjectDetailsProps) => {
   return (
     <Card className="mx-auto flex w-full max-w-6xl flex-col md:flex-row">
       {/* Image */}
       <div
         className={mergeClasses(
-          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
+          'flex items-center justify-center border-gray-100 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
           layoutType === 'default'
             ? 'md:rounded-l-xl md:border-r'
             : 'md:order-last md:rounded-r-xl md:border-l',
         )}
       >
-        <Link noCustomization href={url} externalLink>
+        {isPreviewAvailable ? (
+          <Link noCustomization href={url} externalLink>
+            <Image
+              src={previewImage}
+              alt={`${name} preview`}
+              className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+              style={{ objectFit: 'cover' }}
+            />
+          </Link>
+        ) : (
           <Image
-            src={previewImage}
+            src={PlaceholderImage}
             alt={`${name} preview`}
             className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
           />
-        </Link>
+        )}
       </div>
 
       {/* Content */}
@@ -57,14 +68,16 @@ const ProjectDetails = ({
             <Tag key={index} label={technology} />
           ))}
         </div>
-        <Link
-          href={url}
-          noCustomization
-          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
-          externalLink
-        >
-          <ExternalLink />
-        </Link>
+        {isPreviewAvailable && (
+          <Link
+            href={url}
+            noCustomization
+            className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
+            externalLink
+          >
+            <ExternalLink />
+          </Link>
+        )}
       </div>
     </Card>
   );

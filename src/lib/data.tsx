@@ -18,13 +18,11 @@ import PixelotechLogo from '/public/images/logos/pixelotech-logo.jpeg';
 import WooshelfLogo from '/public/images/logos/wooshelf-logo.jpeg';
 import F22LabsLogo from '/public/images/logos/f22_labs_logo.jpeg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
-
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
+
+import Kookxtra from '/public/images/projects/kookxtra.webp';
 
 import {
   ExperienceDetails,
@@ -36,10 +34,6 @@ import {
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/mdashfaque-mamdu-au17',
   GITHUB_REPO: 'https://github.com/mdashfaque-mamdu-au17/ashfaque-portfolio',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
 };
 
 export const NAV_LINKS = [
@@ -184,59 +178,50 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Kookxtra',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
-    technologies: [
-      'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
-    ],
-  },
-  {
-    name: 'Fiskil',
-    description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'Kookxtra is a food delivery app where meals are cooked by chefs. It features driver registration for delivery partners, meal subscriptions, event catering, and a platform for new chefs to join and showcase their culinary talents.',
+    url: 'https://www.kookxtra.com/en',
+    previewImage: Kookxtra,
     technologies: [
       'React',
       'Next.js',
       'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
+      'Tailwind CSS',
+      'React Aria',
       'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Right Angle',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+      'Right Angle is a management software designed for a Godrej furniture dealership. It features lead tracking, customer management, product and order management, delivery tracking, completion certificates, and a dashboard with sales charts and order source analysis.',
+    url: '',
+    previewImage: '',
     technologies: [
       'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
+      'Javascript',
+      'Tailwind CSS',
+      'Headless UI',
+      'React Query',
+    ],
+    isPreviewAvailable: false,
+  },
+  {
+    name: 'Relax Techno Fab',
+    description:
+      'Relax Techno Fab is a management software designed for Relax Techno Fab, focusing primarily on tanker testing. It features customer management, a tanker testing module, an inventory module, and a material management module.',
+    url: '',
+    previewImage: '',
+    technologies: [
+      'React',
+      'Javascript',
+      'Tailwind CSS',
       'React Query',
       'Storybook',
+      'React Area',
     ],
+    isPreviewAvailable: false,
   },
 ];
 
