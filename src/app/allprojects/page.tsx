@@ -5,7 +5,7 @@ import React from 'react';
 
 function AllProjects() {
   return (
-    <Container id="Projects">
+    <Container>
       {ALLPROJECTS?.map((project, index) => {
         return (
           <ProjectDetails
