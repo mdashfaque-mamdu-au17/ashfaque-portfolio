@@ -18,8 +18,6 @@ import PixelotechLogo from '/public/images/logos/pixelotech-logo.jpeg';
 import WooshelfLogo from '/public/images/logos/wooshelf-logo.jpeg';
 import F22LabsLogo from '/public/images/logos/f22_labs_logo.jpeg';
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import Kookxtra from '/public/images/projects/kookxtra.webp';
@@ -376,24 +374,24 @@ export const ALLPROJECTS: ProjectDetails[] = [
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    personName: 'Dhiraj Dalvi',
+    personAvatar: AvatarDummy,
+    title: 'Software Developer',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      'Ashfaque is an outstanding teammate and leader. He expertly guides projects from start to finish, fostering collaboration and mentoring others. His leadership not only drives project success but also strengthens team cohesion.',
   },
   {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    personName: 'Bikash Rai',
+    personAvatar: AvatarDummy,
+    title: 'Software Tester',
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      'As a tester working with Ashfaque, I appreciate his meticulous attention to detail and proactive communication. His thorough understanding of both development and user experience ensures that every feature is polished and functional before release. His dedication significantly enhances our testing process and overall product quality.',
   },
   {
-    personName: 'Joe Matkin',
+    personName: 'Rahul Goel',
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Collaborating with Ashfaque has been enlightening. His flexibility and deep technical expertise make him an ideal partner for freelance projects. He consistently meets deadlines with solutions that are not only effective but also innovative, elevating the entire project outcome.',
   },
 ];
