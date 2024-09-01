@@ -1,8 +1,22 @@
+import ProjectDetails from '@/components/data-display/project-details';
 import Container from '@/components/layout/container';
+import { ALLPROJECTS } from '@/lib/data';
 import React from 'react';
 
-function Page() {
-  return <Container id="Projects">All Projects</Container>;
+function AllProjects() {
+  return (
+    <Container id="Projects">
+      {ALLPROJECTS?.map((project, index) => {
+        return (
+          <ProjectDetails
+            key={index}
+            {...project}
+            layoutType={index % 2 === 0 ? 'default' : 'reverse'}
+          />
+        );
+      })}
+    </Container>
+  );
 }
 
-export default Page;
+export default AllProjects;

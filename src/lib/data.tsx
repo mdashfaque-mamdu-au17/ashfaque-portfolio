@@ -23,6 +23,20 @@ import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import Kookxtra from '/public/images/projects/kookxtra.webp';
+import RestCountries from '/public/images/projects/rest-countries.webp';
+import EntertainmentWebApp from '/public/images/projects/entertainment-web-app.webp';
+import DesignSolution from '/public/images/projects/design solution.webp';
+import InteractiveCard from '/public/images/projects/interactive-card.webp';
+import MusicPlayer from '/public/images/projects/music-player.webp';
+import ContactApp from '/public/images/projects/contact-app.webp';
+import DeveloperPortfolio from '/public/images/projects/developer-portfolio.webp';
+import NotificationApp from '/public/images/projects/notification-app.webp';
+import CrowdFundingApp from '/public/images/projects/crowd-funding-app.webp';
+import UrlShortner from '/public/images/projects/url-shortner.webp';
+import Flyo from '/public/images/projects/flyo.webp';
+import Officelite from '/public/images/projects/officelite.webp';
+import SocialMediaDashboard from '/public/images/projects/social-media-dashboard.webp';
+import Todo from '/public/images/projects/todo.webp';
 
 import {
   ExperienceDetails,
@@ -222,6 +236,141 @@ export const PROJECTS: ProjectDetails[] = [
       'React Area',
     ],
     isPreviewAvailable: false,
+  },
+];
+
+export const ALLPROJECTS: ProjectDetails[] = [
+  {
+    name: 'Rest Countries',
+    description:
+      'Rest Countries is a Frontend Mentor challenge project where users can search for any country and access key details such as population and languages spoken. This project enhances user interaction with global data through a clean and responsive interface.',
+    url: 'https://rest-countries-app-eight.vercel.app/',
+    previewImage: RestCountries,
+    technologies: [
+      'React',
+      'Next.js',
+      'Javascript',
+      'Headless UI',
+      'Tailwind CSS',
+    ],
+  },
+  {
+    name: 'Entertainment Web Application',
+    description:
+      'Entertainment Web Application offers a platform to explore movies and TV series, allowing users to search, bookmark favorites, and navigate through various sections. It features user authentication for managing bookmarks with sign-up and login options.',
+    url: 'https://entertainment-web-app-frontend.vercel.app/',
+    previewImage: EntertainmentWebApp,
+    technologies: [
+      'React',
+      'Javascript',
+      'Tailwind CSS',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+    ],
+  },
+  {
+    name: 'Design Solution Landing Page',
+    description:
+      'Design Solution Landing Page is a responsive landing page featuring a dynamic carousel. This project focuses on delivering a visually appealing and user-friendly interface.',
+    url: 'https://single-page-design-portfolio-psi.vercel.app/',
+    previewImage: DesignSolution,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Interactive Card',
+    description:
+      'Interactive Card is a responsive web application designed to handle card information securely, featuring validations for the card number, CVV, and expiry date. This project ensures a user-friendly experience with real-time validation feedback.',
+    url: 'https://interactive-self.vercel.app/',
+    previewImage: InteractiveCard,
+    technologies: ['React', 'Javascript', 'Formik', 'Tailwind CSS'],
+  },
+  {
+    name: 'Music Player',
+    description:
+      'Music Player is a versatile application that offers standard music player functionalities along with a search feature, allowing users to easily find and play their favorite tracks.',
+    url: 'https://music-player-opal-eight.vercel.app/',
+    previewImage: MusicPlayer,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Contact App',
+    description:
+      'Contact App is a practical application that enables users to manage their contacts through comprehensive CRUD (Create, Read, Update, Delete) operations, facilitating easy and efficient contact management.',
+    url: 'https://contact-details-xi.vercel.app/',
+    previewImage: ContactApp,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Developer Portfolio',
+    description:
+      'Developer Portfolio Website serves as a professional showcase for a developer, highlighting their experience, diverse skill set, and projects. This site is designed to provide a comprehensive view of the developer’s capabilities and achievements.',
+    url: 'https://portfolio-landing-website.netlify.app/',
+    previewImage: DeveloperPortfolio,
+    technologies: ['React', 'Javascript', 'SASS', 'CSS'],
+  },
+  {
+    name: 'Notification App',
+    description:
+      'Notification App provides a clear interface for managing notifications, displaying them with distinct read and unread indicators. Users can conveniently mark all notifications as read with a single action, enhancing usability and interaction.',
+    url: 'https://notification-page-dun.vercel.app/',
+    previewImage: NotificationApp,
+    technologies: ['React', 'Javascript', 'CSS'],
+  },
+  {
+    name: 'Crowd Funding App',
+    description:
+      'Crowdfunding App enables users to support various projects by choosing from a list and contributing any desired amount. The app tracks and displays the funding progress for each project, showing how close it is to achieving its financial goals.',
+    url: 'https://crowd-funding-product-page-ashfaque.vercel.app/',
+    previewImage: CrowdFundingApp,
+    technologies: ['React', 'Javascript', 'CSS'],
+  },
+  {
+    name: 'URL Shortner',
+    description:
+      'URL Shortener is a tool that provides users with the ability to shorten long URLs into more manageable and shareable links, enhancing usability and accessibility.',
+    url: 'https://url-shortening-landing-page-eight.vercel.app/',
+    previewImage: UrlShortner,
+    technologies: ['React', 'Javscript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Flyo',
+    description:
+      'Flyo is a conceptual design for Flyo, a fictional cloud file storage service. This landing page features a sleek dark theme, emphasizing modern aesthetics and user-friendly navigation.',
+    url: 'https://flyo-dark-theme-landing-page-theta.vercel.app/',
+    previewImage: Flyo,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Officelite',
+    description:
+      'Officelite is a conceptual SaaS landing page for a complex task manager. It highlights the service offerings and features a countdown timer to the launch date, engaging users with anticipation and detailed insights into the functionalities.',
+    url: 'https://officelite-coming-soon-seven.vercel.app/',
+    previewImage: Officelite,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Social Media Dashboard',
+    description:
+      'Social Media Dashboard offers a comprehensive view of an account’s activity across multiple platforms, including Facebook, Instagram, Twitter, and YouTube. It features a switchable dark and light theme, enhancing user experience and adaptability to different viewing preferences.',
+    url: 'https://social-media-dashboard-challenge-ashy.vercel.app/',
+    previewImage: SocialMediaDashboard,
+    technologies: ['React', 'Javascript', 'Tailwind CSS'],
+  },
+  {
+    name: 'Todo',
+    description:
+      'Todo App is a task management tool that enables users to organize their to-do list with full CRUD functionalities. It offers both dark and light themes, allowing users to customize their viewing experience for optimal usability.',
+    url: 'https://to-do-frontend-fawn.vercel.app/',
+    previewImage: Todo,
+    technologies: [
+      'React',
+      'Javascript',
+      'Tailwind CSS',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+    ],
   },
 ];
 
