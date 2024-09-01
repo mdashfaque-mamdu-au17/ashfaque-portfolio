@@ -31,7 +31,7 @@ const WorkSection = () => {
       <div className="flex items-center justify-center">
         <Button
           onClick={() => {
-            router.push('/allprojects');
+            router.push('/projects');
           }}
         >
           View All
