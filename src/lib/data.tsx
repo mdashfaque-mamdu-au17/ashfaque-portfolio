@@ -21,6 +21,7 @@ import F22LabsLogo from '/public/images/logos/f22_labs_logo.jpeg';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import Kookxtra from '/public/images/projects/kookxtra.webp';
+import Arcz from '/public/images/projects/arcz.webp';
 import RestCountries from '/public/images/projects/rest-countries.webp';
 import EntertainmentWebApp from '/public/images/projects/entertainment-web-app.webp';
 import DesignSolution from '/public/images/projects/design solution.webp';
@@ -189,6 +190,20 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'Arcz',
+    description:
+      'Developed an e-commerce web app for lighting solutions where users can browse, buy, and customize lights. Users can create projects and purchase required lighting setups.Supports custom light configurations like 4-wire, ink track, and superslim magnetic tracks.Integrated lighting consultant services for expert advice and project guidance.Enabled professional networking and collaboration within the platform.',
+    url: 'https://arcz.in/',
+    previewImage: Arcz,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwind CSS',
+      'React Table',
+    ],
+  },
   {
     name: 'Kookxtra',
     description:
