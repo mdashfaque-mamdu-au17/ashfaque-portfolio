@@ -56,7 +56,7 @@ export const NAV_LINKS = [
   },
   {
     label: 'Work',
-    href: '#work',
+    href: '/projects',
   },
   {
     label: 'Testimonials',
