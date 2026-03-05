@@ -75,7 +75,7 @@ export const SOCIAL_LINKS = [
   },
   {
     icon: Linkedin,
-    url: 'https://www.linkedin.com/in/md-ashfaque-mamdu-b61510211/',
+    url: 'https://www.linkedin.com/in/ashfaque-mamdu-b61510211/',
   },
   {
     icon: Instagram,
